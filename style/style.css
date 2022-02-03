@@ -1,0 +1,293 @@
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("/fonts/Quicksand-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("/fonts/Karla-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url("/fonts/Karla-Italic-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+body {
+    background-color: #333;
+}
+header {
+    
+    background-image: linear-gradient(to right, black, rgb(92, 83, 83));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 4.25em;
+    font-weight: bold;
+    padding-top: 50px;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+.moto {
+    align-self: center;
+    align-self: flex-end;
+    font-style: italic;
+    font-weight: 700;
+}
+p {
+    font-family: "karla";
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: silver;
+    padding-right: 30px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.content {
+    background-color: rgb(110, 110, 110);
+    padding-top: 3.125rem;
+    padding-bottom: 60px;
+    padding-left: 3.125rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.acomod-titulo {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.rodape {
+    background-color: rgb(180, 170, 170);
+    display: flex;
+    padding: 80px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.social {
+    word-spacing: 30px;
+}
+
+.contatos {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.serv-titulo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.camas-image {
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.camas-image:hover {
+    transition: 200ms;
+    transform:scale(1.5);
+    
+}
+
+.camas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dots {
+    display: inline-block;
+}
+
+.camas-dot {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(175, 175, 175);
+    border-radius: 50%;
+}
+
+.camas-titulo {
+        
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top: 1px dotted rgb(172, 155, 155); */
+}
+
+h4 {
+    font-weight: 100;
+    color: rgb(226, 226, 226);
+}
+
+.ar-cond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ar-cond-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top: 1px dotted rgb(172, 155, 155) */
+}
+
+.ar-cond-image {
+    border-radius: 25px;
+    width: 50%;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.ar-cond-image:hover {
+    transition: 200ms;
+    transform:scale(1.5);
+}
+
+.banho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banho-titulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banho-image {
+    border-radius: 25px;
+    width: 60%;
+    height: auto;
+}
+
+.banho-image:hover {
+    transition: 200ms;
+    transform:scale(1.5);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos {
+    color: white;
+}
+
+.numbers {
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.numbers li {
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    gap: .25rem;
+}
+
+.numbers a {
+    color: white;
+}
+.contact img {
+    width: 25px;
+    height: 25px;
+}
+
+section {
+    padding: .5rem;
+    font-family: "quicksand", sans-serif;
+    text-align: center;
+    font-style: oblique 20deg;
+    color: white;
+}
+
+@media (max-width: 800px){
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .moto {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    main .camas-image {
+        width: 70%;
+        background-size: 100% 100%;
+        align-self: center;
+        
+    }
+
+    main .ar-cond-image {
+        width: 70%;
+        background-size: 100% 100%;
+        align-self: center;
+    }
+
+    main .banho-image {
+        width: 70%;
+        background-size: 100% 100%;
+        align-self: center;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
