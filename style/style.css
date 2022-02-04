@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "quicksand", sans-serif;
     font-size: 4.25em;
     font-weight: bold;
     padding-top: 50px;
@@ -59,7 +59,7 @@ h3 {
     font-weight: 700;
 }
 p {
-    font-family: "karla";
+    font-family: "karla", sans-serif;
     font-size: 1.25rem;
     font-weight: normal;
     color: silver;
