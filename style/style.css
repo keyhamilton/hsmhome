@@ -33,7 +33,7 @@ body {
 }
 header {
     
-    background-image: linear-gradient(to right, black, rgb(92, 83, 83));
+    background-image: linear-gradient(to bottom, black, rgb(92, 83, 83));
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
